@@ -1,5 +1,3 @@
-
-
 //1. Cambia el título "Generation 1 Pokémon" por "Generasión 1 Pokimon".
 const titulo = document.getElementById('gen-1');
 titulo.innerHTML = 'Generasión 1 Pokimon';
@@ -17,13 +15,10 @@ const domain = document.location.domain;
 console.log(domain);
 
 //5. Imprime todos los nodos de imagen.
-let imagenes = document.querySelectorAll('img');
+const imagenes = document.querySelectorAll('img');
 console.log(imagenes);
 
 //6. Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
 imagenes.forEach(img => {
     img.src ='https://media.giphy.com/media/2v170e71aanfi/giphy.gif'
 })
-
-console.log(document.title);
-console.log(document.title);
